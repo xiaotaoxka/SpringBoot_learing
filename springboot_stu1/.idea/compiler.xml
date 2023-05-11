@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="springboot_01_02_quckstart" />
+        <module name="springboot_01_04_quickstart" />
+        <module name="springboot_01_01_quckstart" />
+        <module name="springboot_04_junit" />
+        <module name="springboot_03_yaml" />
+        <module name="springboot_05_mybatis" />
+        <module name="springboot_07_druid" />
+        <module name="springboot_08_ssmp" />
+        <module name="springboot_02_base_configuration" />
+        <module name="springboot_06_mybatis_plus" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="springboot_01_01_quckstart" options="-parameters" />
+      <module name="springboot_01_02_quckstart" options="-parameters" />
+      <module name="springboot_01_04_quickstart" options="-parameters" />
+      <module name="springboot_02_base_configuration" options="-parameters" />
+      <module name="springboot_03_yaml" options="-parameters" />
+      <module name="springboot_04_junit" options="-parameters" />
+      <module name="springboot_05_mybatis" options="-parameters" />
+      <module name="springboot_06_mybatis_plus" options="-parameters" />
+      <module name="springboot_07_druid" options="-parameters" />
+      <module name="springboot_08_ssmp" options="-parameters" />
+    </option>
+  </component>
+</project>

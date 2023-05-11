@@ -1,0 +1,33 @@
+server:
+  port: 8999
+
+country: china
+province: beijing
+city: beijing
+area: haidian
+
+user1:
+  name: xiaotao
+  age: 16
+
+likes:
+  - game
+  - music
+  - sleep
+
+users:
+  - name: xiaotao
+    age: 22
+  - name: xiaotaotao
+    age: 23
+
+baseDir: c:\windows
+
+# 使用${属性名}引用数据
+tempDir: ${baseDir}\temp
+
+datasource:
+  driver: com.cj.mysql.jdbc.Driver
+  url: jdbc:mysql://localhost/springboot_db
+  username: root
+  password: 15610906711
